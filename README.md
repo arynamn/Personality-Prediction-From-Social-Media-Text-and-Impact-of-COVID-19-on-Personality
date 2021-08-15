@@ -18,27 +18,25 @@ Machine Learning Tools - Tensorflow, Scikit-Learn. <br />
 Natural Language Processing Tools and Utilities - NLTK, spaCy, Gensim + Word2Vec(Google News Vectors), NRCEmotions Lexicons.<br />
 Other Libraries - Pandas, Tweepy, Matplotlib<br />
 
+## Specification :
+
+
 Store the essays.csv and nrc_emotions_lex.xlsx in the inputs folder
 
 ## Dataset :
 Training and Development - essays.csv [4] dataset by J.W. Pennebaker and L.A. King <br />
 Testing - Social media text extracted from Twitter <br />
 
-
-
 ## Project Details
 This project is mainly divided into 4 major components: <br />
 1. Extracting texts from Twitter : We store the twitter ids of required number of users in input_files/twitter_ids.json along with the countries they belong to. We then use the extractor script to fetch tweets using tweepy and store them in json script. We have compiled input_files/country_dates.json which store the date around which lockdown was imposed in their respective countries. We use this to store the tweets of an individual before and after COVID-19 lockdown separately keeping a week margin.
 2. Processing the texts using NLP tools : We use various natural language processing techniques to clean and extract relevant features from text. We process the essays.csv  as well as the extracted tweets. Although there is a slight difference in their processing eg. the essays dataset does not require removing links and mentions present in twitter. Texts from twitter create stronger challenges for nlp tools as it contains many irregularities.
-3. Preparing Machine Learning Models and apply them to extracted texts : We use Google-news-vectors to extract embeddings for the texts. We use these embedding as input to various ML models. We tested CNN based Neural Network using Tensorflow,  Naive Bayes, Logistic Regression, SVC, Random Forest Classifier using SKlearn.
+3. Preparing Machine Learning Models and apply them to extracted texts : We use Google-news-vectors to extract embeddings for the texts. We use these embedding as input to various ML models. We trained and tested the models using the Pennebaker essays dataset and applied them to the extracted tweets. We tried CNN based Neural Network using Tensorflow,  Naive Bayes, Logistic Regression, SVC, Random Forest Classifier using SKlearn.
 4. Compilation and Analysis : We compile the results from various models and analyse the predictions to study the effect of Covid-19
 
 ![image](https://user-images.githubusercontent.com/83718299/129464825-da79f464-3ea8-48ec-b149-30f0f8269dce.png)
 
-
-
 ## References :
-
 [1] Karsten J, Penninx BW, Riese H, Ormel J, Nolen WA, Hartman CA. The state effect of depressive and anxiety disorders on big five personality traits. JPsychiatr Res. 2012;46:644–50. pmid:22349302
 
 [2] Roberts BW, Luo J, Briley DA, Chow PI, Su R, Hill PL. A systematic review of personality trait change through intervention. Psychol Bull. 2017;143:117–41. pmid:28054797
@@ -50,4 +48,6 @@ Document Modeling for Personality Detection from Text”, IEEE Intelligent Syste
 
 [5]  Nazar Akrami, Johan Fernquist, Tim Isbister, Lisa Kaati, Björn Pelzer, “Automatic Extraction of Personality from Text: Challenges and Opportunities”,   2019 IEEE International Conference on Big Data (Big Data).
 
- 
+[6] Saif M. Mohammad, Sentiment Analysis: Automatically Detecting Valence, Emotions, and Other Affectual States from Text. https://arxiv.org/pdf/1308.6297.pdf
+
+
