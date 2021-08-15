@@ -1,4 +1,4 @@
-# Personality-Prediction-From-Social-Media-Text and Impact of Covid-19 on personality
+# Personality Prediction From Social Media Text  and   Impact of Covid-19 on personality
 ## Introduction
 Personality-Prediction-From-Social-Media-Text is my BTech final Year project under the guidance of Prof. Amitabha Acharaya, HITK, Kolkata.<br/>
 My group member in this project were : Anisha Chhetri, Ankit Kumar, Abhisekh. <br/>
