@@ -1,0 +1,155 @@
+{
+  "Argentina": {
+    "start_pre": "2019,11,16",
+    "end_pre": "2020,3,15",
+    "start_post": "2020,3,30",
+    "end_post": "2020,7,31"
+  },
+  "Australia": "None",
+  "Brazil": {
+    "start_pre": "2019,11,13",
+    "end_pre": "2020,3,12",
+    "start_post": "2020,3,27",
+    "end_post": "2020,7,31"
+  },
+  "Canada": "None",
+  "Chile": "None",
+  "China": "None",
+  "Egypt": "None",
+  "England": {
+    "start_pre": "2019,11,16",
+    "end_pre": "2020,3,15",
+    "start_post": "2020,3,30",
+    "end_post": "2020,7,31"
+  },
+  "France": {
+    "start_pre": "2019,11,10",
+    "end_pre": "2020,3,10",
+    "start_post": "2020,3,25",
+    "end_post": "2020,7,31"
+  },
+  "Georgia": {
+    "start_pre": "2019,11,24",
+    "end_pre": "2020,3,24",
+    "start_post": "2020,4,7",
+    "end_post": "2020,7,31"
+  },
+  "Germany": {
+    "start_pre": "2019,11,16",
+    "end_pre": "2020,3,15",
+    "start_post": "2020,3,30",
+    "end_post": "2020,7,31"
+  },
+  "India": {
+    "start_pre": "2019,11,18",
+    "end_pre": "2020,3,17",
+    "start_post": "2020,4,1",
+    "end_post": "2020,7,31"
+  },
+  "Indonesia": {
+    "start_pre": "2019,11,15",
+    "end_pre": "2020,3,15",
+    "start_post": "2020,3,30",
+    "end_post": "2020,7,31"
+  },
+  "Ireland": {
+    "start_pre": "2019,11,5",
+    "end_pre": "2020,3,5",
+    "start_post": "2020,3,20",
+    "end_post": "2020,7,31"
+  },
+  "Italy": {
+    "start_pre": "2019,11,2",
+    "end_pre": "2020,3,2",
+    "start_post": "2020,3,17",
+    "end_post": "2020,7,31"
+  },
+  "Japan": "None",
+  "Jordan": {
+    "start_pre": "2019,11,11",
+    "end_pre": "2020,3,10",
+    "start_post": "2020,3,25",
+    "end_post": "2020,7,31"
+  },
+  "Lebanon": {
+    "start_pre": "2019,11,8",
+    "end_pre": "2020,3,7",
+    "start_post": "2020,3,22",
+    "end_post": "2020,7,31"
+  },
+  "Mexico": {
+    "start_pre": "2019,11,16",
+    "end_pre": "2020,3,16",
+    "start_post": "2020,3,31",
+    "end_post": "2020,7,31"
+  },
+  "Monaco": "None",
+  "Netherlands": "None",
+  "Pakistan": {
+    "start_pre": "2019,11,17",
+    "end_pre": "2020,3,17",
+    "start_post": "2020,4,1",
+    "end_post": "2020,7,31"
+  },
+  "Phillipines": {
+    "start_pre": "2019,11,14",
+    "end_pre": "2020,3,15",
+    "start_post": "2020,3,30",
+    "end_post": "2020,7,31"
+  },
+  "Saudi Arabia": {
+    "start_pre": "2019,11,8",
+    "end_pre": "2020,3,8",
+    "start_post": "2020,4,1",
+    "end_post": "2020,7,31"
+  },
+  "Scotland": {
+    "start_pre": "2019,11,16",
+    "end_pre": "2020,3,16",
+    "start_post": "2020,3,31",
+    "end_post": "2020,7,31"
+  },
+  "South Africa": {
+    "start_pre": "2019,11,19",
+    "end_pre": "2020,3,19",
+    "start_post": "2020,4,3",
+    "end_post": "2020,7,31"
+  },
+  "Spain": {
+    "start_pre": "2019,11,8",
+    "end_pre": "2020,3,8",
+    "start_post": "2020,3,23",
+    "end_post": "2020,7,31"
+  },
+  "Switzerland": {
+    "start_pre": "2019,11,13",
+    "end_pre": "2020,3,13",
+    "start_post": "2020,3,28",
+    "end_post": "2020,7,31"
+  },
+  "Turkey": {
+    "start_pre": "2019,11,16",
+    "end_pre": "2020,3,16",
+    "start_post": "2020,3,31",
+    "end_post": "2020,7,31"
+  },
+  "UAE": {
+    "start_pre": "2019,11,19",
+    "end_pre": "2020,3,18",
+    "start_post": "2020,4,2",
+    "end_post": "2020,7,31"
+  },
+  "USA": {
+    "start_pre": "2019,11,15",
+    "end_pre": "2020,3,16",
+    "start_post": "2020,3,31",
+    "end_post": "2020,7,31"
+  },
+  "Vatican City": "None",
+  "default": {
+    "start_pre": "2019,11,1",
+    "end_pre": "2020,3,15",
+    "start_post": "2020,4,1",
+    "end_post": "2020,7,31"
+  }
+}
